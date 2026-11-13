@@ -18,13 +18,13 @@ Works best alongside (all optional): the token-saver plugin, Graphify MCP, Compo
 Personal (all projects):
 
 ```bash
-git clone https://github.com/ethan-gobi/auto-orchestrator.git ~/.claude/skills/auto-orchestrator
+git clone https://github.com/ethan-gobi/auto-orchestrate-skill-.git ~/.claude/skills/auto-orchestrator
 ```
 
 Single project:
 
 ```bash
-git clone https://github.com/ethan-gobi/auto-orchestrator.git .claude/skills/auto-orchestrator
+git clone https://github.com/ethan-gobi/auto-orchestrate-skill-.git .claude/skills/auto-orchestrator
 ```
 
 Restart Claude Code (or start a new session) so it picks up the skill.
