@@ -44,3 +44,26 @@ Claude will use it automatically for multi-step, multi-tool requests. You can al
 ```bash
 cd ~/.claude/skills/auto-orchestrator && git pull
 ```
+
+---
+
+# design-orchestrator
+
+A second skill in this repo, in the `design-orchestrator/` folder: a design lead for websites, landing pages, hero sections, app screens, posters and motion.
+
+- **Sets one direction first** (a feeling, two fonts, a small palette, one signature animation), then builds the hero before anything else.
+- **Chains the design tools you already have**: frontend-design, emil-design-eng, web-artifacts-builder, canvas-design, theme-factory, algorithmic-art, anatomy, dataviz, video-making, the audit-suite plugin, and connectors such as Higgsfield, 21st.dev, Originkit, Figma and Canva when they are connected. Missing tools are skipped.
+- **Holds a craft bar** for type (Fontshare by default), color, spacing, component states, motion timing, playful animated text and accessibility, and checks the result at phone and desktop widths before delivering.
+
+Install:
+
+```bash
+git clone https://github.com/ethan-gobi/auto-orchestrate-skill-.git /tmp/orchestrator-skills
+cp -r /tmp/orchestrator-skills/design-orchestrator ~/.claude/skills/design-orchestrator
+```
+
+Use:
+
+```
+/design-orchestrator a landing page for my notes app, playful and soft
+```
